@@ -38,7 +38,10 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - Based on{' '}
+          © Angelo Cardellicchio & Sergio Ruggieri {new Date().getFullYear()}
+        </p>
+        <p className="footer__text">
+          Created with &#10084;&#65039; using{' '}
           <a href="https://gatsbyjs.com" target="_blank" rel="noopener noreferrer">
             GatsbyJS
           </a>{' '}

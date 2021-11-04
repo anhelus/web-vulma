@@ -35,9 +35,23 @@ export const projectsData = [
     info: 'Street-VULMA is a tool which allows to gather data directly from GeoJSON files.',
     info2:
       'With Street-VULMA, you can directly convert a GeoJSON into images. Try it using the source code linked below!',
-    url: 'https://github.com/anhelus/street-vulma',
-    repo: 'https://github.com/anhelus/street-vulma', // if no repo, the button will not show up
+    url: 'https://github.com/vulma/street-vulma',
+    repo: 'https://github.com/vulma/street-vulma', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'dataset.png',
+    title: 'View-VULMA',
+    info: 'View-VULMA is the data set used to train the VULMA toolset.',
+    info2:
+      `As we firmly believe in open source, our aim is to make View-VULMA publicly available, \
+        following the FAIR principles, and providing data under CC BY-NC-ND license. However, \
+        as we are still in beta, we temporarly ask you to compile and send to sergio.ruggieri@poliba.it \
+        a form to receive the link from where you will be able to download the dataset. \ 
+        We hope you will understand it.`,
+    url: 'https://drive.google.com/file/d/1HPkEDqadrS1tGg4bAh-Vhfmp0xoEr_AF/view',
+    repo: 'https://drive.google.com/file/d/1HPkEDqadrS1tGg4bAh-Vhfmp0xoEr_AF/view',
+  }
   // {
   //   id: nanoid(),
   //   img: 'project.jpg',

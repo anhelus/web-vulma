@@ -58,17 +58,29 @@ const Projects = () => {
                       >
                         See Live
                       </a> */}
-
-                      {repo && (
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="cta-btn text-color-main"
-                          href={repo}
-                        >
-                          Source Code
-                        </a>
-                      )}
+                      {title === 'View-VULMA' ? 
+                        repo && (
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="cta-btn text-color-main"
+                            href={repo}
+                          >
+                            Get Beta Release Agreement
+                          </a>
+                        )
+                        :
+                        repo && (
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="cta-btn text-color-main"
+                            href={repo}
+                          >
+                            Source Code
+                          </a>
+                        )                      
+                      }
                     </div>
                   </Fade>
                 </Col>
